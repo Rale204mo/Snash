@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Mentorship Section Styling */
+#mentorship {
+    background-color: #262626;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#mentorship h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#mentorship p {
+    color: #cccccc;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+#mentorship ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#mentorship ul li {
+    color: #cccccc;
+    margin: 5px 0;
+}
+
+/* Join Button */
+.join-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+    background-color: #45a049;
+}
+
+/* Main Catalog Section */
+#catalog {
+    padding: 20px;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.forex-pair {
+    background-color: #262626;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.forex-pair:hover {
+    transform: scale(1.05);
+}
+
+.forex-pair img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.forex-pair h3 {
+    font-size: 1.25em;
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+.forex-pair p {
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+.forex-pair a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.forex-pair a:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+}

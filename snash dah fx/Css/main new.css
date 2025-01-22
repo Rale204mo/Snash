@@ -1,0 +1,139 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Changing the scroll bar color*/
+::-webkit-scrollbar{
+    background: rgb(255, 255, 255);
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(77, 115, 240);
+}
+
+/*Navigation Section===============================================*/
+.navigation ul{
+    display: flex;
+    margin-left: 48%;
+}
+.navigation ul li{
+    display: flex;
+    margin-right: 6%;
+
+}
+.navigation ul li a{
+    text-decoration:none;
+    color: rgb(73, 72, 72);
+    background: rgb(255, 255, 255);
+    padding: 13px 30px ;
+    border-color:rgba(73, 72, 72, 0.514) ;
+    border-width: .5px;
+    border-style: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    transition: all .6s;
+}
+
+.navigation ul li a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(77, 115, 240);
+    border-color:rgb(77, 115, 240);
+    transform: translateY(-5px);
+}
+
+.navigation ul li a.active{
+    background: rgb(77, 115, 240);
+    color: white;
+    border-color: white;
+}
+
+/*Welcome section, which is the first landing page*/
+span{
+    color: rgb(77, 115, 240);
+}
+
+.Welcome-Page{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 15%;
+    height: 58vh;
+}
+
+.Welcome-Page h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Welcome-Page p{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -7rem;
+    margin-top: -2rem;
+}
+
+/*This is the view on the destinations==================*/
+.destinations{
+    margin-top: 2%;
+    height: 160vh;
+}
+
+.destinations h1{
+    font-size: 2.5rem;
+}
+
+.image{
+    border-radius: 100px;
+}
+
+.katse{
+    display: flex;
+    margin-inline: 3rem;
+    
+}
+
+.semonkong {
+    display: flex;
+}
+
+.id p{
+    width:600px;
+    margin-top: 5rem;
+
+}
+
+.text{
+    margin-left: 3rem;
+
+}
+
+.semonkong{
+    margin-top: 1rem;
+}
+
+/*visit button style*/
+.visit{
+    background: rgb(255, 255, 255);
+    padding: 20px 150px;
+    border-radius: 25px;
+    border-color:rgba(67, 68, 68, 0.671);
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    text-decoration: none;
+    margin-left: 5rem;
+    transition: all .6s;
+}
+
+
+
+.visit:hover{
+    border-color: rgb(31, 147, 255);
+    background: rgb(31, 147, 255); 
+
+}
