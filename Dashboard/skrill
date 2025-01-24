@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay with Skrill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .payment-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .payment-container h1 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .payment-container form button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .payment-container form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Pay with Skrill</h1>
+        <form action="https://pay.skrill.com" method="post">
+            <!-- Required Parameters -->
+            <input type="hidden" name="pay_to_email" value="merchant@example.com">
+            <input type="hidden" name="status_url" value="https://yourwebsite.com/payment-status">
+            <input type="hidden" name="return_url" value="https://yourwebsite.com/thank-you">
+            <input type="hidden" name="cancel_url" value="https://yourwebsite.com/payment-cancelled">
+            <input type="hidden" name="currency" value="USD">
+            <input type="hidden" name="amount" value="50.00">
+            <input type="hidden" name="detail1_description" value="Order Description">
+            <input type="hidden" name="detail1_text" value="Forex mentorship package">
+
+            <!-- Payment Button -->
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
