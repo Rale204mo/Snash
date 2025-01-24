@@ -4,89 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Snash Dah Fx</title>
-    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <style>
-        /* Styles for About Us Page */
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f9f9f9;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+            color: #f0f0f0;
         }
 
+        /* Header Styles */
         header {
             background-color: #333;
-            color: #fff;
-            padding: 20px 0;
+            padding: 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
+            color: #4CAF50;
+            font-size: 2.5em;
         }
 
         nav ul {
             list-style: none;
             padding: 0;
-            margin: 0;
+            margin: 10px 0 0;
             display: flex;
             justify-content: center;
+            gap: 20px;
         }
 
         nav ul li {
-            margin: 0 15px;
+            display: inline;
         }
 
         nav ul li a {
-            color: #fff;
+            color: #f0f0f0;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 500;
+            padding: 10px 15px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            transition: all 0.3s ease;
         }
 
         nav ul li a:hover {
-            color: #f4a261;
+            color: #4CAF50;
+            border-color: #4CAF50;
         }
 
+        /* About Section */
         #about-section {
             max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
+            margin: 40px auto;
+            background-color: #1a1a1a;
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #about-section h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        #about-section p {
-            color: #666;
-            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: justify;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
+        #about-section h2 {
+            color: #4CAF50;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+
+        #about-section p {
+            color: #cccccc;
+            margin-bottom: 15px;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        /* Footer Styles */
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
         }
 
         footer p {
             margin: 0;
+            font-size: 0.9em;
+            color: #cccccc;
         }
     </style>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Snash Dah Fx</h1>
+        <h1>About Us</h1>
         <nav>
             <ul>
                 <li><a href="https://rale204mo.github.io/Snash/snash%20dah%20fx/dah_fx.html">Home</a></li>
@@ -97,10 +111,10 @@
 
     <!-- About Us Section -->
     <section id="about-section">
-        <h2>About Us</h2>
-        <p>Welcome to Snash Dah Fx! We are a team of dedicated forex traders and mentors committed to empowering individuals with the knowledge and skills needed to succeed in the financial markets. Our mission is to guide aspiring traders toward achieving consistent profitability through structured mentorship and cutting-edge trading strategies.</p>
-        <p>With years of experience in the forex market, we offer a comprehensive approach that includes live trading sessions, detailed market analysis, and personalized trading plans. At Snash Dah Fx, we prioritize your growth and are here to help you navigate the complex world of forex trading with confidence.</p>
-        <p>Join our community of traders and take the first step towards financial independence today!</p>
+        <h2>About Snash Dah Fx</h2>
+        <p>Welcome to Snash Dah Fx! We are a team of dedicated forex traders and mentors committed to empowering individuals with the knowledge and skills needed to succeed in the financial markets.</p>
+        <p>Our mission is to guide aspiring traders toward achieving consistent profitability through structured mentorship and cutting-edge trading strategies. With years of experience, we offer live trading sessions, detailed market analysis, and personalized trading plans.</p>
+        <p>At Snash Dah Fx, we prioritize your growth and are here to help you navigate the complex world of forex trading with confidence. Join us today and start your journey toward financial independence!</p>
     </section>
 
     <!-- Footer -->
