@@ -1,191 +1,299 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snash Dah Fx - Mentorship</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <h1>Snash Dah Fx - Life Time Mentorship</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-             
-                <li><a href="C:\Users\DEll\Desktop\FOREX\snash dah fx\about us.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Mentorship Section -->
-    <section id="mentorship">
-        <!-- This is the major div holding all of the contents -->
-        <div class="mentorship-content"></div>
-        <h2 >About Our Mentorship Program we offer. </h2>
-        <h3 class="text-animation">WE offer  <span></span></h3></span>
-                <p>Join Snash Dah Fx’s exclusive mentorship program and learn real-time trading techniques. Get insights into market trends, understand forex pair strategies, and engage in live trading sessions with our experienced mentors. Our goal is to help you become a proficient forex trader, equipped with the skills and knowledge needed to succeed.</p>
-        
-        <ul>
-            <li>One-on-one mentorship sessions</li>
-            <li>Daily live analysis of forex pairs</li>
-            <li>Access to our exclusive trading signals</li>
-            <li>Customized trading plans</li>
-            <li>24/7 support from our mentorship team</li>
-        </ul>
-
-        <a href="register.html" class="join-btn">Join Now</a>
-    </section>
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 
 
-   
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+}
 
-     <style>
-        /* Styles for Pricing Section */
-        #pricing {
-            border: 2px solid #333; /* Outer border for the section */
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-            max-width: 800px;
-            margin: 20px auto;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        #pricing h2 {
-            text-align: center;
-            color: #333;
-        }
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-        #pricing p {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #666;
-        }
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+nav ul li a:hover {
+    color: #4CAF50;
+}
 
-        table thead th {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-
-        table tbody tr {
-            background-color: #050404;
-        }
-
-        table tbody tr:nth-child(even) {
-            background-color: #0801016c;
-        }
-
-        table td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid #0c0b0b;
-        }
-
-        /* Hover effect for table rows */
-        table tbody tr:hover {
-            background-color: #0e1ce4;
-            cursor: pointer;
-        }
-
-        .pricing-btn {
-            display: block;
-            width: fit-content;
-            margin: 0 auto;
-            padding: 10px 20px;
-            background-color: #0f0101;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            text-align: center;
-            transition: background-color 0.3s ease;
-        }
-
-        /* Hover effect for the button */
-        .pricing-btn:hover {
-            background-color: #8bf461;
-            color: #fff;
-        }
-    </style>
-
-   
-
-    <!-- Pricing Section -->
-    <section id="pricing">
-        <h2>Mentorship & Signal Prices</h2>
-        <p>Choose a package that suits your trading needs and goals:</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Package</th>
-                    <th>Features</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Basic Signals</td>
-                    <td>Access to daily trading signals</td>
-                    <td>M250/month</td>
-                </tr>
-                <tr>
-                    <td>Mentorship Only</td>
-                    <td>One-on-one sessions and customized trading plans</td>
-                    <td>M500/month</td>
-                </tr>
-                <tr>
-                    <td>Premium Bundle</td>
-                    <td>Mentorship + Daily signals + 24/7 support</td>
-                    <td>M800/month</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <a href="https://whatsapp.com/dl/" class="pricing-btn">See Full Details</a>
-    </section>
+/* Mentorship Section Styling */
+.mentorship-content p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
-    <!-- Main Catalog Section -->
-    <main>
-        <section id="catalog">
-            <h2>Forex Pairs</h2>
-            <div class="catalog-grid">
-                <article class="forex-pair">
-                    <img src="C:\Users\DEll\Desktop\FOREX\snash dah fx\pics\IMG-20250122-WA0014.jpg" alt="EUR/USD">
-                    <h3>XAG/USD</h3>
-                    <p>The silver and U.S. Dollar pairing, a popular choice for traders.</p>
-                    <a href="C:\Users\DEll\Desktop\FOREX\snash dah fx\XAGUSD.html">View Details</a>
-                </article>
-                
-                <article class="forex-pair">
-                    <img src="C:\Users\DEll\Desktop\FOREX\snash dah fx\pics\IMG-20250122-WA0021.jpg" alt="GBP/USD">
-                    <h3>EUR/JPY</h3>
-                    <p>EURO and Japanese Yen pairing, known for its volatility.</p>
-                    <a href="C:\Users\DEll\Desktop\FOREX\snash dah fx\EURJPY.html">View Details</a>
-                </article>
 
-                <article class="forex-pair">
-                    <img src="C:\Users\DEll\Desktop\FOREX\snash dah fx\pics\IMG-20250122-WA0018.jpg" alt="USD/JPY">
-                    <h3>USD/JPY</h3>
-                    <p>The U.S. Dollar and Japanese Yen pairing, a safe-haven asset.</p>
-                    <a href="C:\Users\DEll\Desktop\FOREX\snash dah fx\USDJP.html">View Details</a>
-                </article>
-            </div>
-        </section>
-    </main>
+.btn{
+    display: inline-block;
+    padding: 1.5rem 8rem;
+    background: var(--main-color);
+    box-shadow:  0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Snash Dah Fx Mentorship</p>
-    </footer>
-</body>
-</html>
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+    
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn-group a:nth-of-type(2){
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+}
+
+
+
+.btn-group a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+}
+
+.text-animation{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.text-animation span{
+    position: relative;
+}
+
+.text-animation span::before{
+    content: "Fundamental Signals";
+    color: var(--main-color);
+    animation: words 20s infinite;
+    font-size: 3rem;
+}
+
+.text-animation span::after{
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right:-8px;
+    animation: cursor 0.6s infinite,typing 40s steps(14) infinite;
+}
+@keyframes cursor{
+    to{
+        border-left: 2px solid var(--main-color);
+    }
+}
+@keyframes words{
+    0%,
+    20%{
+        content: "Technical Signals";
+    }
+
+    21%,
+    40%{
+        content: "Scalp Trades";
+    }
+
+    41%,
+    60%{
+        content: "Day Trades";
+    }
+
+    61%,
+    80%{
+        content: "Mentorship";
+    }
+    
+    81%,
+    100%{
+         content: "SMC or ICT strategy"
+         }
+
+}
+
+@keyframes typing{
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95%{
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85%{
+        width: calc(100% + 8px);
+    }
+}
+
+#mentorship {
+    background-color: #262626;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#mentorship h2 {
+    color: #1b881b;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#mentorship h3 {
+    color: #1c7be7;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#mentorship p {
+    color: #cccccc;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+#mentorship ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#mentorship ul li {
+    color: #cccccc;
+    margin: 5px 0;
+}
+
+/* Join Button */
+.join-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+    background-color: #45a049;
+}
+
+/* Main Catalog Section */
+#catalog {
+    padding: 20px;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.forex-pair {
+    background-color: #262626;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.forex-pair:hover {
+    transform: scale(1.05);
+}
+
+.forex-pair img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.forex-pair h3 {
+    font-size: 1.25em;
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+.forex-pair p {
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+.forex-pair a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.forex-pair a:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+}
+
+
+
